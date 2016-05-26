@@ -4,7 +4,8 @@ node_js: "4"
 
 script:
   - npm test
-  
+  - npm run pack-linux
+
 branches:
   only:
     - master
