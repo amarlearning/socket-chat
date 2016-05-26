@@ -1,5 +1,5 @@
 <h1 align="center" font-size="50px">Elecido</h1>
-<h4 align="center">[Capture screenshots and Vidoes]</h4>
+<h4 align="center">[Screencast & Screenshots]</h4>
 
 <p align="center">
 <a href="https://github.com/Flet/semistandard"><img src="https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat-square" alt="js-semistandard-style"></a>
