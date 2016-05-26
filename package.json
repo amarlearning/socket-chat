@@ -1,0 +1,28 @@
+{
+  "name": "Elecido",
+  "version": "1.0.0",
+  "description": "capture screenshots audios and video with this open source cross platform application built using electron!",
+  "main": "script.js",
+  "scripts": {
+    "start": "electron script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amarlearning/elecido.git"
+  },
+  "keywords": [
+    "Elecido",
+    "screenshots",
+    "recording",
+    "electron"
+  ],
+  "author": "amarlearning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amarlearning/elecido/issues"
+  },
+  "homepage": "https://github.com/amarlearning/elecido#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.1.2"
+  }
+}
