@@ -4,7 +4,7 @@
   "description": "capture screenshots audios and video with this open source cross platform application built using electron!",
   "main": "script.js",
   "scripts": {
-    "start": "electron script.js"
+    "start": "electron"
   },
   "repository": {
     "type": "git",

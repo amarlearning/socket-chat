@@ -1,31 +1,21 @@
-const electron = require('electron')
-const app = electron.app
-const BrowserWindow = electron.BrowserWindow
+var electron = require('electron')
+var app = electron.app
+var BrowserWindow = electron.BrowserWindow
 
-let mainWindow
+// As soon as the app gets ready, plz create a window for user :P
+app.on('ready', function() {
 
-function createWindow () {
-  mainWindow = new BrowserWindow({width: 800, height: 600})
-
-  mainWindow.loadURL(`http://amarpandey.me`)
-
-  mainWindow.webContents.openDevTools()
-
-  mainWindow.on('closed', function () {
-    mainWindow = null
+  var mainWindow = new BrowserWindow({
+    width: 800,
+    height: 600
   })
-}
 
-app.on('ready', createWindow)
+  // Also load some content, nobody wants to see plain window.
+  mainWindow.loadURL('file://' + __dirname + '/index.html')
 
-app.on('window-all-closed', function () {
-  if (process.platform !== 'darwin') {
-    app.quit()
-  }
 })
 
-app.on('activate', function () {
-  if (mainWindow === null) {
-    createWindow()
-  }
+// terminate the application, when all windows are closed!
+app.on('window-all-closed', () => {
+  app.quit()
 })
