@@ -1,3 +1,13 @@
+# -*- coding: utf-8 -*-
+# @Author: Amar Prakash Pandey
+# @Date:   2016-05-26
+# @Email:  amar.om1994@gmail.com  
+# @Github username: @amarlearning
+# @Last Modified by: Amar Prakash Pandey  
+# @Last Modified date: 2016-05-28
+# MIT License. You can find a copy of the License
+# @http://amarlearning.mit-license.org
+
 var electron = require('electron')
 var app = electron.app
 var BrowserWindow = electron.BrowserWindow
