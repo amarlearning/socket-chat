@@ -4,7 +4,7 @@
   "description": "capture screenshots audios and video with this open source cross platform application built using electron!",
   "main": "script.js",
   "scripts": {
-    "start": "electron"
+    "start": "electron script.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/amarlearning/elecido#readme",
   "devDependencies": {
-    "electron-prebuilt": "^1.1.2"
+    "electron-prebuilt": "^1.2.0"
   }
 }
