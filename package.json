@@ -1,28 +1,28 @@
 {
-  "name": "Elecido",
+  "name": "waddle",
   "version": "1.0.0",
-  "description": "capture screenshots audios and video with this open source cross platform application built using electron!",
-  "main": "script.js",
+  "description": "will fill this coloum later",
+  "main": "index.js",
   "scripts": {
-    "start": "electron script.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amarlearning/elecido.git"
+    "url": "git+https://github.com/amarlearning/Waddle.git"
   },
   "keywords": [
-    "Elecido",
-    "screenshots",
-    "recording",
-    "electron"
+    "Waddle",
+    "real",
+    "time",
+    "chat",
+    "socket.io",
+    "multi",
+    "language"
   ],
-  "author": "amarlearning",
-  "license": "MIT",
+  "author": "Amar Prakash Pandey",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/amarlearning/elecido/issues"
+    "url": "https://github.com/amarlearning/Waddle/issues"
   },
-  "homepage": "https://github.com/amarlearning/elecido#readme",
-  "devDependencies": {
-    "electron-prebuilt": "^1.2.0"
-  }
+  "homepage": "https://github.com/amarlearning/Waddle#readme"
 }
