@@ -1,4 +1,4 @@
-<h1 align="center" font-size="50px">Elecido</h1>
+<h1 align="center" font-size="50px">Waddle</h1>
 <h4 align="center">[Screencast & Screenshots]</h4>
 
 <p align="center">
