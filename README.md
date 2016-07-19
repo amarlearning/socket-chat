@@ -1,5 +1,5 @@
 <h1 align="center" font-size="50px">Waddle</h1>
-<h4 align="center">[Screencast & Screenshots]</h4>
+<h4 align="center">[]</h4>
 
 <p align="center">
 <a href="http://amarlearning.mit-license.org/"><img src="https://img.shields.io/pypi/l/pyzipcode-cli.svg" alt="mit license"></a>
@@ -9,7 +9,7 @@
 
 ***
 <p>
-	Elicido is a cross platform application built using <a href="https://electron.atom.io">Electron</a> and <a href="https://nodejs.org">Node.Js</a>. It makes our life very easier when it comes to capture screenshots and record audio and screencast as well.
+
 </p>
 
 ***
