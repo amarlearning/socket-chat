@@ -28,16 +28,6 @@
 
 ***
 
-## Supported platforms
-[:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Elecido#Elecido)
-
-| OS | Support status |
-| --- | --- |
-| Linux | :white_check_mark: Full support |
-| OS X | :white_check_mark: Full support  |
-| Windows | :white_check_mark: Full support |
-***
-
 ## Issues
 [:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Elecido#Elecido)
 
