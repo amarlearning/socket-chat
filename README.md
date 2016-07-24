@@ -12,7 +12,6 @@
 
 </p>
 
-***
 ##Index
 - [Demo](#demo)
 - [Features](#features)
