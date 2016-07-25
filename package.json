@@ -1,25 +1,26 @@
 {
-  "name": "waddle",
-  "version": "1.0.0",
-  "description": "will fill this later",
-  "main": "server.js",
+  "name": "node-js-getting-started",
+  "version": "0.2.5",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amarlearning/Waddle.git"
+    "url": "https://github.com/heroku/node-js-getting-started"
   },
   "keywords": [
-    "chat",
-    "waddle",
-    "real_time",
-    "socket.io"
+    "node",
+    "heroku",
+    "express"
   ],
-  "author": "Amar Prakash Pandey",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/amarlearning/Waddle/issues"
-  },
-  "homepage": "https://github.com/amarlearning/Waddle#readme"
+  "license": "MIT"
 }

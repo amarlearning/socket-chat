@@ -1,46 +1,39 @@
-<h1 align="center" font-size="50px">Waddel</h1>
-<h4 align="center">[]</h4>
+# node-js-getting-started
 
-<p align="center">
-<a href="http://amarlearning.mit-license.org/"><img src="https://img.shields.io/pypi/l/pyzipcode-cli.svg" alt="mit license"></a>
-<a href="https://github.com/amarlearning/elecido/issues">
-<img src="https://camo.githubusercontent.com/926d8ca67df15de5bd1abac234c0603d94f66c00/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f6e747269627574696f6e732d77656c636f6d652d627269676874677265656e2e7376673f7374796c653d666c6174" alt="Travis"></a>
-</p>
+A barebones Node.js app using [Express 4](http://expressjs.com/).
 
-***
-<p>
+This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
 
-</p>
+## Running Locally
 
-##Index
-- [Demo](#demo)
-- [Features](#features)
-- [Motivation](#features)
-- [Installation](#installation)
-  - [Clone it](#clone-it)
-  - [Run it](#run-it)
-- [Supported platforms](#supported-platforms)
-- [Contributing](#contributing)
-  - [To-do](#to-do)
-- [Issues](#issues)
-- [License](#license)
+Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
-***
+```sh
+$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
+$ cd node-js-getting-started
+$ npm install
+$ npm start
+```
 
-## Issues
-[:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Elecido#Elecido)
+Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-You can report the bugs at the [issue tracker](https://github.com/amarlearning/Elecido/issues)
+## Deploying to Heroku
 
-**OR**
+```
+$ heroku create
+$ git push heroku master
+$ heroku open
+```
+or
 
-You can [tweet me](https://twitter.com/amarpandey007) if you can't get it to work. In fact, you should tweet me anyway.
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-***
+## Documentation
 
-##License
-[:arrow_up:\[Back to Top\]](https://github.com/amarlearning/Elecido#Elecido)
+For more information about using Node.js on Heroku, see these Dev Center articles:
 
-Built with ♥ by Amar Prakash Pandey([@amarlearning](http://github.com/amarlearning)) under [MIT License](http://amarlearning.mit-license.org/) 
-
-You can find a copy of the License at http://amarlearning.mit-license.org/
+- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
+- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
+- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
+- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
+- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
