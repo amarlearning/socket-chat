@@ -3,7 +3,7 @@ var app = express();
 
 var http = require('http').Server(app);
 
-app.get('/elete', function(req, res){
+app.get('/', function(req, res){
 	res.send('hello socket.io');
 });
 
