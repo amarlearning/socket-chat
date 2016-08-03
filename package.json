@@ -1,0 +1,31 @@
+{
+  "name": "wadhat",
+  "version": "1.0.0",
+  "description": "real time chat application with auto translation!",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amarlearning/Wadhat.git"
+  },
+  "keywords": [
+    "real-time",
+    "chat",
+    "multi-language",
+    "socket.io",
+    "express",
+    "node",
+    "application"
+  ],
+  "author": "Amar Prakash Pandey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amarlearning/Wadhat/issues"
+  },
+  "homepage": "https://github.com/amarlearning/Wadhat#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
